@@ -1,0 +1,24 @@
+options {
+    url:
+    columns:[{},{}]
+}
+
+$.table.init(options)
+
+
+自定义查询
+options {
+    url:
+    queryParams:queryParams,
+    columns:[{
+        field:,
+        title:
+    },{}]
+}
+
+$.table.init(options)
+
+function queryParams(params){
+    $.table.queryParams(params);
+    
+}
